@@ -82,7 +82,7 @@ And, finally, on click focused link stays in the *underlined* condition by addin
 ```
 And it works perfectly without using this feature. But to add this thing to the page, I have to link the parent **.nav-item** element by child **.nav-link.active** element and add to the parent class **.nav-item-click**. And I want to know if it's possible, because *overflow* dind't help)  
 ## New problem with scrollspy
-Alright, this problem gotta be easier to solve I think
+Alright, this problem gotta be easier to solve I think. 
 All the work of the feature you can see above, here just about the main points:
 ### Html code
 I have a little **footer** in the end of my page:
@@ -128,7 +128,5 @@ And also I have a **link** connected with this footer in my **navbar**:
 ```
 ### The problem
 So after that it's logical to think, that when I scroll window on the part containing the
-footer (that's the end of the page bc it is pretty small), my link has to be highlighted. But if u resize the window, you'll see that somewhere the highlight changes from the needed link to the previous one, and that doesn't matter if footer is in the window. Here r some sreens of what I'm talking about:
-![not expanded](photo/screen_evidence_1)
-![expanded](photo/screen_evidence_2)
+footer (that's the end of the page bc it is pretty small), my link has to be highlighted. But if u resize the window, you'll see that somewhere the highlight changes from the needed link to the previous one, and that doesn't matter if footer is in the window. You can see some screens in the ***photo***folder.
 I suppose that's bc of the small height of the element, but I don't know how to fix that and make link being highlighted all the time I scroll to the end of the page.

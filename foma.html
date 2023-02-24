@@ -14,7 +14,7 @@
 
 
 	<!--Navbar start-->
-	<nav class="navbar fixed-top navbar-expand-md" id="nav">
+	<nav class="navbar fixed-top navbar-expand-lg" id="nav">
 		<div class="navbar-brand">
 			<div class="cent">
 				<div class="star">
@@ -33,16 +33,19 @@
 		<div class="navbar-collapse collapse" id="navmen">
 			<div class="navbar-nav ms-auto">
 				<li class="nav-item"  id="main" href="#mainsect" onclick="location.href = '#mainsect'">
-					<a class="nav-link" href="#mainsect">Main</a>
+					<a class="nav-link" href="#mainsect"><span>Главная</span></a>
 				</li>
 				<li class="nav-item" id="info">
-					<a class="nav-link" href="#infosect">Information</a>
-				</li>	
-				<li class="nav-item" id="myth">
-					<a class="nav-link" href="javascript:void(0)">Myth</a>
+					<a class="nav-link" href="#infoanch"><span>Факты</span></a>
 				</li>	
 				<li class="nav-item" id="table">
-					<a class="nav-link" href="javascript:void(0)">Table</a>
+					<a class="nav-link" href="#tablsect"><span>Таблица</span></a>
+				</li>	
+				<li class="nav-item" id="myth">
+					<a class="nav-link" href="#mythsect"><span>Миф</span></a>
+				</li>	
+				<li class="nav-item" id="footer">
+					<a class="nav-link" href="#footsect"><span>О нас</span></a>
 				</li>		
 			</div>
 		</div>
@@ -78,11 +81,12 @@
 				</div>	
 			</div>
 			<div class="texmain col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-				<h2>
+				<h2 class="title">
 					Fomalhaut, Piscis Austrinus
 				</h2>
 				<p class="lead">
-					Maecenas ultricies turpis eget massa blandit cursus. Etiam ut elit quis felis tempus gravida nec viverra velit. Suspendisse mi ex, placerat vel lacus sit amet, volutpat congue magna. Pellentesque finibus blandit velit, luctus ultricies justo ornare eget. Ut tristique hendrerit imperdiet. Sed ipsum est, condimentum in scelerisque ut, porttitor sit amet nunc. Donec lacinia rutrum augue nec molestie. Donec placerat tempor orci sed auctor. Nam volutpat quam tellus, eu eleifend felis suscipit ut. In aliquet velit sed ante fermentum tincidunt. Aenean eu fermentum nisi. Aenean luctus fringilla.
+					Фомальгаут — звезда первой звездной величины, одна из ярчайших звезд неба. Среди всех звезд видимых с Земли она занимает <span class="emph_word">18-е место</span> по яркости, имеет большое значение для навигации, так как значительно удалена от других ярких звезд, а поскольку ближайшая к ней яркая звезда — <span class="emph_word">Ахернар</span> — <span class="emph_word">альфа Эридана</span> — находится еще более глубоко в южном полушарии и практически не видима в северном полушарии, то Фомальгаут кажется очень одинокой… хотя, на самом деле это не так.
+					Трудности, связанные с наблюдением этой звезды, окутали её эдаким ореолом романтизма и таинственности — загадочная неуловимая звезда, восходящая на несколько минут… это пробуждает интерес.
 				</p>
 			</div>
 		</div>
@@ -91,7 +95,10 @@
 	<!--Main end-->
 
 	<!--Info start-->
-	<div class="info container-fluid" id="#infosect">
+	<div class="info_anch" id="infoanch">
+		
+	</div>
+	<div class="info container-fluid" id="infosect">
 		<div class="row">
 			<div class="intcol col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
 				<div class="fact-i">
@@ -102,7 +109,9 @@
 				</div>
 				<div class="fact-t">
 					<p class="lead">
-						Maecenas ultricies turpis eget massa blandit cursus. Etiam ut elit quis felis tempus gravida nec viverra velit. Suspendisse mi ex, placerat vel lacus sit amet, volutpat congue magna. Pellentesque finibus blandit velit, luctus ultricies justo ornare eget. Ut tristique hendrerit imperdiet.
+						Фомальгаут в <span class="emph_word">2.3</span> раза тяжелее Солнца, а радиус больше солнечного в <span class="emph_word">1.85</span> раза. Точный радиус Фомальгаута - 1287045000 метров, а точна масса Фомальгаута - 3,819E30 кг.
+						Диаметр Фомальгаута - 2 563 000 км.
+						Это белая звезда главной последовательности.  
 					</p>
 				</div>
 			</div>
@@ -115,7 +124,7 @@
 				</div>
 				<div class="fact-t">
 					<p class="lead">
-						Maecenas ultricies turpis eget massa blandit cursus. Etiam ut elit quis felis tempus gravida nec viverra velit. Suspendisse mi ex, placerat vel lacus sit amet, volutpat congue magna. Pellentesque finibus blandit velit, luctus ultricies justo ornare eget. Ut tristique hendrerit imperdiet.
+						Это звезда, расположенная на расстоянии всего <span class="emph_word">25 световых лет</span> от Земли. До марта 2000 года Фомальгаут и Ахернар были двумя звёздами первой величины, находящимися на максимальном угловом расстоянии от любой другой звезды первой величины в астрономической сфере.
 					</p>
 				</div>
 			</div>
@@ -129,7 +138,7 @@
 				</div>
 				<div class="fact-t">
 					<p class="lead">
-						Maecenas ultricies turpis eget massa blandit cursus. Etiam ut elit quis felis tempus gravida nec viverra velit. Suspendisse mi ex, placerat vel lacus sit amet, volutpat congue magna. Pellentesque finibus blandit velit, luctus ultricies justo ornare eget. Ut tristique hendrerit imperdiet.
+						В 1922 году Международный астрономический союз окончательно разделил небо на 88 созвездий, в числе которых находилось также и <span class="emph_word">Южная рыба</span> (котором находится Фомальгаут), закрепив их границы и создав таким образом удобную единую картографию небосвода.
 					</p>
 				</div>
 			</div>
@@ -138,6 +147,205 @@
 
 
 	<!--Info end-->
+
+	<!--Table start-->
+	<div class="tables container-fluid" id="tablsect">
+		<div class="row">
+			<div class="tabl col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<table>
+					<tr>
+						<td class="tabl_title" colspan="2">
+							<span>Наблюдательные данные</span>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							Прямое восхождение
+						</th>
+						<th>
+							22ч 57м 39,10с
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Склонение
+						</th>
+						<th>
+							−29° 37′ 20″
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Видимая звездая величина
+						</th>
+						<th>
+							1.16
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Созвездие
+						</th>
+						<th>
+							Южная рыба
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Расстояние
+						</th>
+						<th>
+							25,0 ± 0,1 св. года (7,66±0,04пк)
+						</th>
+					</tr>
+				</table>
+			</div>
+			<div class="tabl col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<table class="bigger">
+					<tr>
+						<td class="tabl_title" colspan="2">
+							<span>Физические данные</span>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							Масса
+						</th>
+						<th>
+							1.92 ± 0.02 масс Солнца
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Радиус
+						</th>
+						<th>
+							1.85 радиусов Солнца
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Возраст
+						</th>
+						<th>
+							2*10^8 лет
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Температура
+						</th>
+						<th>
+							8500 Кельвинов
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Светимость
+						</th>
+						<th>
+							16 солнечных светимостей
+						</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>	
+	<!--Table end-->
+
+	<!--Myth start-->
+	<div class="container-fluid myth" id="mythsect">
+		<div class="title padd cent">
+			Мифология Фомальгаута
+		</div>
+		<div class="row myths">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<p class="lead">
+					Если взглянуть на звёздное небо из южного полушария Земли, можно отчётливо увидеть яркую бело-голубую звезду. <span class="emph_word">Фомальгаут</span> — самая яркая звезда в созвездии <span class="emph_word">Южной Рыбы</span>, лежащей под ногами <span class="emph_word">Водолея</span>.
+					Фомальгаут является единственной звездой первой величины, видимой осенью в южной части неба в северных широтах. В северных районах России звезда не видна, становится видимой лишь на широте <span class="emph_word">60° 23</span>(то есть немного севернее широты Санкт-Петербурга). В средней полосе России звезда восходит совсем низко над горизонтом (например, в Екатеринбурге всего на <span class="emph_word">3° 33</span>). Удовлетворительная видимость Фомальгаута только южнее широты Саратова.
+				</p>
+			</div>
+			<div class="cont_myth col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="myth_imcont">
+					<div class="myth_img myth_1">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row myths">
+			<div class="cont_myth col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="myth_imcont">
+					<div class="myth_img myth_2">
+					
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<p class="lead">
+					Эта звезда была известна людям еще в Древней Месопотамии как одна из четырех <span class="emph_word">Цврских звезд</span> или <span class="emph_word">Небесных стражей</span>, важных для наблюдений за временами года.
+					Эта звезда была почитаема в древней Греции, например, остались храмы Деметры ориентированные на ее восход. В древней Персии она отмечала их зимнее солнцестояние. На территории Узбекистана сохранился древний зороастрийский храм Кой-Крылган-кале в котором производились наблюдения за этой звездой.
+					Королевские звёзды, или Стражи Неба:
+					<span class="emph_word">Альдебаран</span> — Страж Востока, <span class="emph_word">Регул</span> — Страж Севера, <span class="emph_word">Альтарес</span> — Страж Запада, <span class="emph_word">Фомальгаут</span> — Страж Юга.
+					Четыре звезды и образуемый ими крест связаны с четырьмя стихиями, которые, в свою очередь, имеют отношение к мифологическим персонажам и дают ключ к древним мистериям и к Евангелиям. Четыре Евангелия из Библии указывают на четыре звезды креста и четырёх <span class="emph_word">Всадников апокалипсиса</span>.
+				</p>
+			</div>
+		</div>
+		<div class="row myths">
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<p class="lead">
+					В этом кресте заложены четыре основополагающие начала мироздания — Великого Миротворного Цикла, названного <span class="emph_word">'Годом Платона'</span>, длительность которого 26000 лет. На заре человеческой истории Стражи Неба обозначали четыре важных точки видимого пути Солнца: Альдебаран — точку весеннего равноденствия, Регул — точку летнего солнцестояния, Антарес — точку осеннего равноденствия, Фомальгаут — точку зимнего солнцестояния. Стражи Неба делили эклиптику, а значит, и год, на четыре равных отрезка. Правда, в настоящее время из-за прецессии точки равноденствий и солнцестояний ушли далеко от этих звезд и вблизи точки летнего солнцестояния теперь находится скорее Альдебаран, осеннее равноденствие предвещает Регул, зимнее солнцестояние — Антарес, а вблизи весеннего равноденствия Солнце подходит к Фомальгауту. 
+				</p>
+			</div>
+			<div class="cont_myth col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+				<div class="myth_imcont">
+					<div class="myth_img  myth_3">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Myth end-->
+
+	<!--Footer start-->
+	<div class="foot" id="footsect">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="title_foot">
+						<h1 class="title">
+							О Создателе
+						</h1>
+						<p class="lead">
+							<span class="emph_word">KaKKaDu</span>
+							<br/>
+							Кортелев Кирилл Дмитриевич
+							<br/>
+							11ф/т-2
+							<br/>
+							Опыт во фронт-энд разработке 1.5 года
+							<br/>
+							Email: <span class="emph_word">kirrakorrt@gmail.com</span>
+						</p>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="title_foot">
+						<h1 class="title">
+							Социальные сети
+						</h1>
+					</div>
+					<div class="link_foot">
+						<a href="https://vk.com/id264260383" target="_blank"><i class="footi fa-brands fa-vk"></i></a>
+						<a href="https://instagram.com/kakk_adu?igshid=YmMyMTA2M2Y=" target="_blank"><i class="footi fa-brands fa-square-instagram"></i></a>
+						<a href="https://github.com/KaKKaDu" target="_blank"><i class="footi fa-brands fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Footer end-->
 
 
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>

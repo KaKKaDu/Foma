@@ -1,7 +1,8 @@
 
-let foot = $('#footer');
-$(window).scroll(function() {
-	if ($(window).scrollTop == $(document).height() - $(window).height()) {
-		$('#footer').addClass('nav-link.active');
+let navmen = $("#navmen");
+
+document.addEventListener('click', function(click) {
+	if (click.target.id != 'buticon' && click.target.id != 'butspan' && click.target.id != 'buticon') {
+		navmen.removeClass('show');
 	}
 })

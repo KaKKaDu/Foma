@@ -1,4 +1,7 @@
 
+# About this project
+Thats just a web-page for a star, which I needed for my computer-science classes.
+Actually, I can't say I learned something new in this project, that's just a good chance to get more expierence. I practised bootstrap features and layout design. Here you can see the history of troubles connected with the development. 
 
 # Fomalghaut (history of troubles)
 ## The problem of scrollspy (removed from the project)
@@ -128,5 +131,5 @@ And also I have a **link** connected with this footer in my **navbar**:
 ```
 ### The problem
 So after that it's logical to think, that when I scroll window on the part containing the
-footer (that's the end of the page bc it is pretty small), my link has to be highlighted. But if u resize the window, you'll see that somewhere the highlight changes from the needed link to the previous one, and that doesn't matter if footer is in the window. You can see some screens in the ***photo***folder.
+footer (that's the end of the page bc it is pretty small), my link has to be highlighted. But if u resize the window, you'll see that somewhere the highlight changes from the needed link to the previous one, and that doesn't matter if footer is in the window. You can see some screens in the ***photo*** folder.
 I suppose that's bc of the small height of the element, but I don't know how to fix that and make link being highlighted all the time I scroll to the end of the page.

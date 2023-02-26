@@ -22,6 +22,7 @@
 	}
 
 /*Navbar start*/
+
 	nav {
 		height: 75px;
 		background-color: rgba(32, 29, 36, .7);
@@ -154,7 +155,7 @@
 /*Main start*/
 
 	.contmain {
-		border-bottom: solid 2px #DADADA;
+		border-bottom: solid 1px #888888;
 	}
 
 	.pictfix {
@@ -237,6 +238,7 @@
 		padding-top: 35px !important;
 		padding-right: 35px !important;
 	}
+
 /*Main end*/
 
 /*Info start*/
@@ -247,7 +249,7 @@
 
 	.info {
 		padding-top: 30px;
-		border-bottom: 2px solid #FAF9F9;
+		border-bottom: solid 1px #888888;
 		padding-bottom: 85px;
 	}
 
@@ -287,15 +289,14 @@
 
 /*Table start*/
 
-	
 	table, th, td, tr{
-		border:solid 2px #6B00EA !important;
-		box-shadow: 0 0 0 1px #FAF9F9;
+		border:solid 1px #AFAFAF !important;
+		box-shadow: 0 0 0 1px #6B00EA;
 	}
 
 	th,td {
 		text-align: center;
-		color: #FAF9F9;
+		color: #DADADA;
 		padding: 10px;
 	}
 
@@ -307,7 +308,7 @@
 
 	.tables {
 		background-color: #1E1E1E;
-		border-bottom: solid 2px #FAF9F9;
+		border-bottom: solid 1px #888888;
 		padding-bottom: 100px;
 	}
 
@@ -325,7 +326,7 @@
 /*Myth start*/
 	.myth {
 		padding-top: 50px;
-		border-bottom: solid 2px #FAF9F9;
+		border-bottom: solid 1px #888888;
 		padding-bottom: 50px;
 	}
 
@@ -389,6 +390,7 @@
 /*Myth end*/
 
 /*Footer start*/
+
 	.foot {
 		padding-top: 50px;
 		background-color: #1E1E1E;
@@ -427,7 +429,6 @@
 		filter: drop-shadow(0px 0px 0px #FAF9F9);
 		transition: 0.2s;	
 	}
-
 	
 /*Footer end*/
 
